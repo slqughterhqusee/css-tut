@@ -1,0 +1,44 @@
+body {
+    color: #414141;
+    background-color: #EEEEEE;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+}
+
+/* em allows a pages fonts to scale accordingly */
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+/* the none ul element removes points entirely */
+/* you can create custom bullets for li using list-style-image */
+
+a {
+    text-decoration: none;
+}
+/* ^ removes default link underline */
+/* better to use ins/del in html rather than adding a strikethru in css */
+
+p{
+    text-align: left;
+}
+
+/* ^this aligns the entire page . use flexbox instead */
+
